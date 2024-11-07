@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="script.js"></script>
+    <script src="common.js"></script>
+    <style>
+        th, td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div id="div_buttons">
+    </div>
+    <script>makeButtons("div_buttons");</script>
+    <h1>Zadanie 1</h1>
+        <input type="text" id="inp_zad1" placeholder="enter capital" />
+        <button onclick="zad1()">Get data</button>
+    <table id="tab_zad1">
+        <tr>
+        <th>Name</th>
+        <th>Capital</th>
+        <th>Population</th>
+        <th>Region</th>
+        <th>Subregion</th>
+        </tr>
+    </table>
+</body>
+</html>
